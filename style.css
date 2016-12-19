@@ -1,7 +1,16 @@
-h2 {
-	color: rgba(144,200,80, 1);
+a {
+	background-color: #BE30FF;
+	text-decoration: none;
+	color: white;
+	font-family: Ubuntu;
+	margin-left: 120px;
+	font-size: 40px;
+	transition: border 1s, border-radius 1s, border-color 1s;
+	padding: 5px;
 }
 
-.red {
-	color: red;
+a:hover {
+	border: 2px;
+	border-radius: 15px;
+	border-color: #12DB2E;
 }
