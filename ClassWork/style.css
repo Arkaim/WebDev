@@ -1,0 +1,26 @@
+.ssylka {
+	margin-left: 125px;
+	font-size: 30px;
+	font-family: Ubuntu;
+	text-decoration: none;
+	color: #FF7300;
+	background-color: #264CF4;
+	border-radius: 10px;
+	padding: 10px;
+	transition: color, background-color, border-radius,;
+	transition-duration: 1s;
+	transition-timing-function: ease;
+}	
+
+.ssylka:hover {
+	color: #00FF33;
+	background-color: #AF0013;
+	border-radius: 15px;
+}
+
+.classCat {
+	width: 50%;
+	position: relative;
+	left: 300px;
+	top: 100px;
+}
