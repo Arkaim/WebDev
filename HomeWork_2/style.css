@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	background-color: #0023BC;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+
+}
+.fullWidth {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.center {
+	width: 600px;
+	height: 600px;
+	background: url(img/cat.jpg) center 100% no-repeat;
+	background-size: cover;
+	margin: 0 auto;
+}
+
+button {
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	border-color: red;
+	border-radius: 7px;
+	margin-top: 20px;
+}
+
+.button {
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+	background-color: #FFC107;
+    padding: 5px;
+    box-shadow: 7px 7px 16px 0px rgba(47, 50, 50, 0.64);
+}
+
+.button:active {
+	border-bottom: 0px solid #FFA000;
+	box-shadow: 5px 5px 7px 0px rgba(47, 50, 50, 0.64);
+
+
+}
