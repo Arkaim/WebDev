@@ -1,0 +1,56 @@
+html,body {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.center {
+	text-align: center;
+}
+
+.leftAlign {
+	text-align: left;
+	width: 49%;
+	display: inline-block;
+	background-color: red;
+	text-align: center;
+
+}
+
+.rightAlign {
+	text-align: right;
+	width: 50%;
+	display: inline-block;
+	text-align: center;
+	background-color: blue;
+}
+
+.image {
+	background: url(img/cat.jpg) center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 600px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+button {
+	background-color: red;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	background-color: #B90E00;
+	padding: 10px;
+	box-shadow: 5px 5px 7px 0px black;
+}
+
+a:active {
+	box-shadow: 5px 5px 11px 0px black;
+
+}

@@ -1,3 +1,7 @@
+html, body {
+
+}
+
 .ssylka {
 	margin-left: 125px;
 	font-size: 30px;
@@ -23,4 +27,13 @@
 	position: relative;
 	left: 300px;
 	top: 100px;
+	box-shadow: 5px 5px 10px 0px black;
+	margin-bottom: 50px;
+}
+
+.header {
+	background-color: #F44040;
+	height: 50px;
+	padding: 50px;
+
 }
