@@ -16,3 +16,5 @@
 * [Цветовая палитра Adobe](https://color.adobe.com/create/color-wheel/)
 * [Dribbble - сайт для дизайнеров (берем вдохновение)](https://dribbble.com/)
 * [Metasploit Framework (Penetration testing)] (https://www.metasploit.com/)
+* [Стоковые фотографии] (https://www.pexels.com/)
+* [Bootstrap Templates] (https://www.startbootstrap.com/)
