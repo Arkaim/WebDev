@@ -1,15 +1,19 @@
 .jumbotron {
 	background: url(../img/cat.jpg) center 100% no-repeat;
 	background-size: cover;
+	height:100%;
 }
 .textcenter {
 	text-align: center;
 	color: #CA1010;
 }
-.image {
-	background: url(../img/cat.jpg) center 100% no-repeat;
-}
+
 .glyphicon-chevron-left {
 	color: #FF0700;
 	box-shadow: 4px 4px 5px 0px black;
+}
+
+.navbar {
+	background-color: lightblue;
+	border-radius: 20px;
 }

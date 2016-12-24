@@ -1,3 +1,9 @@
+
+![Task](https://github.com/arkaim/webdev/task.png "Task")
+
+----
+
+
 ## Список сайтов, которые помогут вам:
 * [StackOverflow](https://www.stackoverflow.com)
 * [Шаблоны для использования в Sketch](https://www.sketchappsources.com)
