@@ -4,6 +4,8 @@ body {
     background: none;
     font-family: 'Slabo 27px', serif;
     color: #fff;
+    overflow-x: hidden;
+    width: 100%;
 }
 
 p {
@@ -11,13 +13,63 @@ p {
 }
 
 .full {
-    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/background.jpg) no-repeat center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #1E1E1E), url(../img/background.jpg) no-repeat center fixed;
     background-size: cover;
     min-height: 100vh;
     min-width: 100%;
+}
+
+.full2 {
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100%;
+}
+
+.full2 .pet1 {
+    height: 50vh;
+    background: url(../img/pet1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.full2 .pet1:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #F16224), url(../img/pet1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.full2 .pet2:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #F16224), url(../img/pet2.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.full2 .pet3:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #F16224), url(../img/pet3.jpeg) no-repeat top;
+    background-size: cover;
+}
+
+.full2 .pet4:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), #F16224), url(../img/pet4.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.full2 .pet2 {
+    min-height: 50vh;
+    min-width: 50%;
+    background: url(../img/pet2.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.full2 .pet3 {
+    min-height: 50vh;
+    min-width: 50%;
+    background: url(../img/pet3.jpeg) no-repeat top;
+    background-size: cover;
+}
+
+.full2 .pet4 {
+    min-height: 50vh;
+    min-width: 50%;
+    background: url(../img/pet4.jpeg) no-repeat center;
+    background-size: cover;
 }
 
 .cursive {
@@ -48,9 +100,14 @@ h3 {
 
 .full .btn-default {
     background-color: #F16224;
-    border-width: 0px;
+    border-width: 2px;
     border-radius: 0px;
     margin-top: 20px;
+}
+
+.glyphicon {
+    line-height: 0px;
+    top: 3px !important;
 }
 
 .full .btn-default:active {
@@ -66,4 +123,42 @@ h3 {
 
 .jumbotronFirst {
     background-color: #F16224;
+}
+
+.fullHeight {
+    min-height: 75vh;
+    min-width: 100%;
+}
+
+.fullHeight .row {
+    margin-top: 100px;
+    color: #2D2D2D;
+}
+
+.fullHeight p {
+    margin-top: 25px;
+}
+
+.thumbnail {
+    transition: all 1s;
+}
+
+.thumblnail {
+    background-color:
+}
+
+.bio {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bioPhotos {
+    height: 100vh;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), white), url(../img/man.jpeg) right no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.black {
+    color: #404040;
 }

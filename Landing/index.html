@@ -14,6 +14,7 @@
     <!-- Custom CSS -->
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome.min.css">
+    <link rel="shortcut icon" type="image/png" href="img/coffee.png" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,7 +26,7 @@
 </head>
 
 <body>
-    <div class="full ">
+    <div class="full">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12 text-center">
@@ -42,7 +43,6 @@
             </div>
         </div>
     </div>
-    </div>
     <div class="jumbotronFirst">
         <div class="container">
             <div class="row">
@@ -52,11 +52,66 @@
             </div>
         </div>
     </div>
-    <!-- /.container -->
+    <!-- FULL HEIGHT DIV -->
+    <div class="fullHeight">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <img src="img/man.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatibus inventore molestiae, illo animi, fugiat recusandae. Nam, eum magni voluptates, maiores nobis ipsum eius libero sit optio consequuntur impedit, facere.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/coffee.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatibus inventore molestiae, illo animi, fugiat recusandae. Nam, eum magni voluptates, maiores nobis ipsum eius libero sit optio consequuntur impedit, facere.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img src="img/graph.png">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta voluptatibus inventore molestiae, illo animi, fugiat recusandae. Nam, eum magni voluptates, maiores nobis ipsum eius libero sit optio consequuntur impedit, facere.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="full2">
+        <div class="row">
+            <div class="col-md-6 pet1">
+            </div>
+            <div class="col-md-6 pet2">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 pet3">
+            </div>
+            <div class="col-md-6 pet4">
+            </div>
+        </div>
+    </div>
+    <div class="bio">
+        <div class="row">
+            <div class="col-md-7 bioPhotos foo">
+            </div>
+            <div class="col-md-5">
+                <h2 class="black">Hello My name is Ahmadinidjad Im from Africa, My inglish is god</h2>
+            </div>
+        </div>
+    </div>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
+    <script>
+    var fooReveal = {
+        delay: 200,
+        distance: '90px',
+        easing: 'cubic-bezier(0.6, 0.2, 0.1, 1)',
+        scale: 0.1,
+        duration: 1000,
+        opacity: 0
+    };
+
+    window.sr = ScrollReveal();
+    sr.reveal('.foo', fooReveal);
+    </script>
 </body>
 
 </html>
